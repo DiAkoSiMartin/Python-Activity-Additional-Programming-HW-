@@ -1,0 +1,8 @@
+  # Return the sum of square of first n natural numbers
+squaresum = int(input("Enter The value:"))
+i=1
+sum = 0
+while (i<=squaresum):
+    sum=sum+(i*i)
+    i=i+1
+print ("The sum of square is =",sum)
